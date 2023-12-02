@@ -1,0 +1,1109 @@
+@charset "UTF-8";
+@import "fonts.css";
+
+@media (min-width: 48em) {
+  html, body, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+
+  html {
+    font-size: 0.81vw;
+  }
+
+  .header_substrate {
+    height: 52.12rem;
+    background: url("header.png");
+    background-size: cover;
+    padding-left: 20.3rem;
+  }
+
+  .emblems {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-top: 4.375rem;
+    height: 3.5rem;
+  }
+
+  .emblem_tefal {
+    width: 16.73rem;
+    height: 3.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+
+  .emblem_tefal_b {
+    height: 3.4rem;
+    width: 3.8rem;
+  }
+
+  .e, .a {
+    height: 2.5rem;
+    width: 4rem;
+  }
+
+  .neva {
+    padding-left: 4.55em;
+    height: 3.5rem;
+    width: 16.37rem;
+    height: 4rem;
+  }
+
+  .data {
+    font-family: "Circe";
+    font-weight: 400;
+    font-size: 2rem;
+    padding-top: 4.7rem;
+  }
+
+  .header-slogon {
+    font-family: "Circe-extrabold";
+    font-weight: 800;
+    font-size: 4.6rem;
+    padding-top: 0.2rem;
+    text-transform: uppercase;
+    width: 42.5rem;
+    line-height: 4.5rem;
+  }
+
+  .skidka {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 42.18rem;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+
+  .number {
+    font-family: "Circe";
+    font-weight: 700;
+    font-size: 12.61rem;
+    height: 12.5rem;
+    padding-top: 0.3rem;
+  }
+
+  .procent {
+    font-family: "Circe";
+    font-weight: 700;
+    font-size: 7.39rem;
+    height: 7rem;
+  }
+
+  .do {
+    font-family: "Circe-bold";
+    font-weight: 700;
+    font-size: 3.35rem;
+    height: 7.5rem;
+    position: absolute;
+    top: 33.5rem;
+    left: 21.2rem;
+  }
+
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+
+  .card_img {
+    padding-top: 1.8rem;
+    width: 8.18rem;
+    height: 5.12rem;
+  }
+
+  .card-text {
+    padding-left: 1.6rem;
+    padding-top: 2.5rem;
+    width: 9.56rem;
+    height: 5.13rem;
+    font-family: "Circe";
+    font-weight: 400;
+    font-size: 1.12rem;
+  }
+}
+.stickers {
+  height: 11.25rem;
+  background-color: #383838;
+  background-size: contain;
+  padding-left: 20.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.stickers-text, .card-okey, .stickers-obmen, .prochent {
+  padding-top: 3.2rem;
+}
+
+.nefa-brand {
+  background-color: #ffffff;
+  background-size: contain;
+  padding-left: 19.3rem;
+}
+
+.stickers-text-transform {
+  text-transform: uppercase;
+  font-family: "Circe";
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  height: 2.9rem;
+}
+
+.stickers-text {
+  height: 5.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.stickers-text-300 {
+  font-family: "Circe-bold";
+  font-weight: 500;
+  font-size: 2rem;
+  color: #FFFFFF;
+  height: 2.6rem;
+}
+
+.card-okey_img {
+  height: 6rem;
+  width: 7rem;
+  padding-left: 1.7rem;
+}
+
+.arrow_img {
+  height: 6rem;
+  width: 5rem;
+}
+
+.stickers-obmen {
+  text-transform: uppercase;
+  font-family: "Circe";
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  height: 2.9rem;
+  width: 20rem;
+  line-height: 1.1;
+}
+
+.prochent {
+  position: relative;
+  font-family: "Circe";
+  font-weight: 700;
+  font-size: 5.68rem;
+  color: #FFFFFF;
+  padding-left: 2.2rem;
+  vertical-align: sub;
+  line-height: 1.1;
+}
+
+.nefa-brand {
+  height: 138rem;
+  background: url("fon.png");
+  background-size: cover;
+}
+
+.kitchen-appliances {
+  height: 130rem;
+  background: #EFEFEF;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(20%), to(#EFEFEF));
+  background: linear-gradient(#FFFFFF, 20%, #EFEFEF);
+}
+
+.knives-and-scissors {
+  height: 112.5rem;
+  background: url("fon_tefal.png");
+  background-size: cover;
+}
+
+.sets-and-accessories_title {
+  height: 14.5rem;
+  font-family: "Circe";
+  font-weight: 700;
+  font-size: 3.12rem;
+  padding-left: 19.56rem;
+  padding-top: 6.68rem;
+}
+
+.sets-and-accessories {
+  height: 156rem;
+  background: #EFEFEF;
+}
+
+.sets-and-accessories_podl {
+  height: 40rem;
+  background: url("accessories.png");
+  background-size: cover;
+}
+
+.nefa-logotip-znaki {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.nefa-logotip {
+  height: 5.625rem;
+  padding-top: 7.81rem;
+  width: 21.62rem;
+  padding-left: 4rem;
+}
+
+.nefa-znaki {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 51.5rem;
+  padding-top: 6.37rem;
+  padding-left: 5.8rem;
+}
+
+.nefa-znaki figure {
+  width: 7.5rem;
+  text-align: center;
+}
+
+.nefa-znaki img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.nefa-znaki figcaption {
+  text-align: center;
+}
+
+.slogon {
+  font-family: "Circe-bold";
+  font-weight: 400;
+  font-size: 1.64rem;
+  width: 83.5rem;
+  height: 10.94rem;
+  text-transform: none;
+  line-height: 1.5;
+  padding-left: 1.5rem;
+  padding-top: 4.3rem;
+}
+
+.skovorodki {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 9.25rem;
+  width: 76.5rem;
+  height: 47.94rem;
+}
+
+.nefa-4630055755608_21, .nefa-4630055755608_2 {
+  width: 25.87rem;
+  height: 25.87rem;
+}
+
+.nefa-4630055755608_21_text, .nefa-4630055755608_2_text {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-diraction: row;
+  width: 19.5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.chena {
+  margin-top: -1rem;
+  width: 8.8rem;
+  height: 5.9rem;
+}
+
+.nytdesiat {
+  width: 5rem;
+  height: 3.8rem;
+}
+
+.nakleiki {
+  width: 4.75rem;
+  height: 3.25rem;
+}
+
+.nefa-4630055755608_21_title, .nefa-4630055755608_2_title {
+  width: 28.75rem;
+  font-family: "Circe";
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  line-height: 1.2;
+}
+
+.title-name {
+  width: 27.75rem;
+  width: 20.75rem;
+}
+
+.nefa-4630055755608_21_title ul, .nefa-4630055755608_2_title ul {
+  width: 25.75rem;
+  font-family: "Circe";
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding-left: 3rem;
+  text-transform: none;
+  line-height: 1.2;
+}
+
+.diameter {
+  text-transform: lowercase;
+  font-weight: 400;
+}
+
+.kostruli {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 3.25rem;
+  width: 90rem;
+  margin-top: 15 rem;
+  top: 20rem;
+}
+
+.nefa-4630055755639_1_text, .nefa-4630055755646_1_text {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-diraction: row;
+  width: 19.5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 3.5rem;
+}
+
+.litr {
+  text-transform: lowercase;
+  font-weight: 400;
+  margin-left: -6rem;
+}
+
+.nefa-4630055755639_1_title ul, .nefa-4630055755646_1_title ul {
+  width: 25.75rem;
+  font-family: "Circe";
+  font-weight: 400;
+  font-size: 1.25rem;
+  padding-left: 3rem;
+  text-transform: none;
+  line-height: 1.2;
+}
+
+.nefa-4630055755639_1_title, .nefa-4630055755646_1_title {
+  width: 25.75rem;
+  font-family: "Circe";
+  font-weight: 700;
+  font-size: 1.6rem;
+  padding-left: 3.5rem;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  line-height: 1.2;
+}
+
+.nefa-4630055755639_1, .nefa-4630055755646_1 {
+  width: 25.87rem;
+  height: 25.87rem;
+  padding-left: 3.5rem;
+}
+
+.emblem_tefal_kitchen-appliances {
+  width: 22.4rem;
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-left: 21.02rem;
+  padding-top: 5.98rem;
+}
+
+.emblem_tefal_br {
+  height: 4.7rem;
+}
+
+.e_br, .a_br {
+  height: 3.4rem;
+}
+
+.kitchen-appliances_slogon {
+  padding-top: 5.33rem;
+  padding-left: 21.02rem;
+  font-family: "Circe-bold";
+  font-weight: 400;
+  font-size: 1.6rem;
+  width: 81rem;
+}
+
+.kitchen-appliances_title {
+  font-family: "Circe-bold";
+  font-weight: 700;
+  font-size: 3.125rem;
+  line-height: 3.125;
+  padding-left: 21.02rem;
+  padding-top: 5.33rem;
+}
+
+.kitchen-appliances-teknika {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 21.02rem;
+  width: 90rem;
+  margin-top: 15 rem;
+  top: 20rem;
+}
+
+.title_tefal_img {
+  width: 25.87rem;
+  height: 25.87rem;
+}
+
+.title_tefal_techik {
+  width: 25.5rem;
+  font-family: "Circe";
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.title_tefal_techik ul {
+  text-transform: none;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 1.25rem;
+}
+
+.text_img {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-diraction: row;
+  width: 19.5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.knives-and-scissors_title {
+  font-family: "Circe";
+  font-weight: 700;
+  font-size: 3.12rem;
+  padding-left: 19.3rem;
+  padding-top: 4.5rem;
+  height: 3.12rem;
+  width: 81rem;
+}
+
+.knives-and-scissors_text {
+  font-family: "Circe";
+  font-weight: 400;
+  font-size: 1.62rem;
+  padding-left: 19.3rem;
+  padding-top: 1.56rem;
+  line-height: 2.39;
+}
+
+.tefal_podpis {
+  width: 25.5rem;
+}
+
+.tefal_knives {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-diraction: row;
+  width: 82rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tefal_knives_text {
+  padding-left: 19.3rem;
+  padding-top: 3.75rem;
+}
+
+.title_tefal_podpis_img {
+  width: 46.68rem;
+  height: 9.87rem;
+}
+
+.title_tefal_knives {
+  width: 33rem;
+  font-family: "Circe";
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-diraction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.title-name_tefal_knives {
+  width: 23rem;
+}
+
+.cm {
+  font-family: "Circe-bold";
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-transform: none;
+}
+
+.universal {
+  width: 27rem;
+}
+
+.for_xleb {
+  width: 22rem;
+}
+
+.povarskoy {
+  width: 23rem;
+}
+
+.for_izmelchen {
+  width: 28rem;
+}
+
+.santoky {
+  width: 20rem;
+}
+
+.for_steik {
+  width: 28.5rem;
+}
+
+.for_ptits {
+  width: 27rem;
+}
+
+.noshnitsi {
+  width: 27rem;
+}
+
+.tefal-kit_title {
+  padding-left: 19.43rem;
+}
+
+.tefal-kit_title ul {
+  font-family: "Circe-bold";
+}
+
+.tefal-kit_text {
+  padding-left: 19.43rem;
+  padding-top: 7.5rem;
+}
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90rem;
+  margin-top: 15 rem;
+  top: 20rem;
+  padding-left: 19.43rem;
+  padding-top: 7.5rem;
+}
+
+.title-name_product {
+  font-family: "Circe";
+  font-weight: 700;
+  font-size: 1.62rem;
+}
+
+.tefal-6_product, .tefal-9_product1 {
+  width: 39.75rem;
+  height: 25.87rem;
+}
+
+.product_title {
+  width: 25.75rem;
+}
+
+.tefal-6_product_text, .tefal-9_product_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-diraction: row;
+  -webkit-box-align: stat;
+      -ms-flex-align: stat;
+          align-items: stat;
+}
+
+.product_title ul {
+  padding-left: 2rem;
+  text-transform: none;
+  font-family: "Circe-bold";
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.opisan {
+  width: 24.75rem;
+  text-transform: none;
+  font-family: "Circe-bold";
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.product_acsesuar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90rem;
+  margin-top: 15 rem;
+  top: 20rem;
+  padding-left: 19.43rem;
+  padding-top: 2.5rem;
+}
+
+.tefal-ovoscherezka_text, .tefal-tochilka_text, .tefal-blok_for_knives_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-diraction: row;
+  -webkit-box-align: stat;
+      -ms-flex-align: stat;
+          align-items: stat;
+}
+
+.product_title {
+  font-family: "Circe";
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.tefal-ovoscherezka, .tefal-tochilka, .blok_for_knives {
+  width: 25.75rem;
+}
+
+.tefal-blok_for_knives_title, .tefal-tochilka_title {
+  width: 23.75rem;
+}
+
+.title-name_product {
+  width: 15.75rem;
+}
+
+/* Slider wrapper*/
+.css-slider-wrapper {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  left: 10rem;
+  right: 62rem;
+  top: 10rem;
+  bottom: 0;
+  margin-top: 83rem;
+  width: 50.37rem;
+  height: 50.37rem;
+}
+
+/* Slider */
+.slider {
+  padding-left: 15rem;
+  padding-right: 10rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  z-index: 0;
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-flex-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-transition: -webkit-transform 1600ms;
+  transition: -webkit-transform 1600ms, transform 1600ms;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* each slide backgound color */
+.slide1 {
+  left: 0;
+}
+
+.slide2 {
+  left: 100%;
+}
+
+.slide3 {
+  left: 200%;
+}
+
+/* Next and Preive arrow */
+.control {
+  position: absolute;
+  top: 26rem;
+  width: 5.12rem;
+  height: 5.12rem;
+  margin-top: -1.56rem;
+  z-index: 55;
+}
+
+.control label {
+  z-index: 0;
+  display: none;
+  text-align: center;
+  line-height: 3.12rem;
+  font-size: 3.12rem;
+  color: #FFF;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.control label:hover {
+  opacity: 0.5;
+}
+
+.next {
+  right: 1%;
+}
+
+.previous {
+  left: 1%;
+}
+
+/* Slider Pagger arrow event */
+.slide-radio1:checked ~ .next .numb2,
+.slide-radio2:checked ~ .next .numb3,
+.slide-radio2:checked ~ .previous .numb1,
+.slide-radio3:checked ~ .previous .numb2 {
+  display: block;
+  z-index: 1;
+}
+
+/* Slider slide effect */
+.slide-radio1:checked ~ .slider {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+.slide-radio2:checked ~ .slider {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+.slide-radio3:checked ~ .slider {
+  -webkit-transform: translateX(-200%);
+  transform: translateX(-200%);
+}
+
+input {
+  opacity: 0;
+}
+
+.fa-arrow-circle-left {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  width: 5.37rem;
+  height: 5.37rem;
+}
+
+.fa-arrow-circle-right {
+  width: 5.37rem;
+  height: 5.37rem;
+}
+
+.css-slider-wrapper__ {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  left: 70rem;
+  right: 62rem;
+  top: 10rem;
+  bottom: 0;
+  margin-top: 83rem;
+  width: 50.37rem;
+  height: 50.37rem;
+}
+
+.slider_ {
+  padding-left: 15rem;
+  padding-right: 10rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  z-index: 0;
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-flex-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-transition: -webkit-transform 1600ms;
+  transition: -webkit-transform 1600ms, transform 1600ms;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* each slide backgound color */
+.slide1_ {
+  left: 0;
+}
+
+.slide2_ {
+  left: 100%;
+}
+
+.slide3_ {
+  left: 200%;
+}
+
+/* Next and Preive arrow */
+.control__ {
+  position: absolute;
+  top: 26rem;
+  width: 5.12rem;
+  height: 5.12rem;
+  margin-top: -1.56rem;
+  z-index: 55;
+}
+
+.control__ .numb1_, .control__ .numb2_, .control__ .numb3_ {
+  z-index: 0;
+  display: none;
+  text-align: center;
+  line-height: 3.12rem;
+  font-size: 3.12rem;
+  color: #FFF;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.control__ label:hover {
+  opacity: 0.5;
+}
+
+.next__ {
+  right: 1%;
+}
+
+.previous__ {
+  left: 1%;
+}
+
+/* Slider Pagger arrow event */
+.slide-radio1_:checked ~ .next__ .numb2_,
+.slide-radio2_:checked ~ .next__ .numb3_,
+.slide-radio2_:checked ~ .previous__ .numb1_,
+.slide-radio3_:checked ~ .previous__ .numb2_ {
+  display: block;
+  z-index: 1;
+}
+
+/* Slider slide effect */
+.slide-radio1_:checked ~ .slider_ {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+
+.slide-radio2_:checked ~ .slider_ {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+.slide-radio3_:checked ~ .slider_ {
+  -webkit-transform: translateX(-200%);
+  transform: translateX(-200%);
+}
+
+footer {
+  height: 22.81rem;
+  background: #000000;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-diraction: row;
+}
+
+.button {
+  font-family: "Circe";
+  font-weight: 400;
+  border-radius: 10rem;
+  color: #fff;
+  font-size: 1rem;
+  overflow: hidden;
+  border: 0.06rem solid #fff;
+  margin-left: 19.3rem;
+  margin-top: 4.3rem;
+  padding: 1rem 7.6rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.37rem;
+}
+
+.button_buklet {
+  margin-left: 1.8rem;
+}
+
+.footer_text {
+  font-family: "Circe";
+  font-weight: 400;
+  color: #fff;
+  padding-left: 19.3rem;
+  padding-top: 2.43rem;
+  width: 81.5rem;
+  font-size: 1.37rem;
+}
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,243 @@
+
+/* Slider wrapper*/
+.css-slider-wrapper {
+  display: block;
+ 
+  overflow: hidden;
+  position: absolute;
+ left: 10rem;
+  right: 62rem;
+  top: 10rem;
+  bottom: 0;
+  
+   margin-top: 83rem;
+  width: 50.37rem;
+  height: 50.37rem;
+}
+/* Slider */
+.slider {
+  padding-left: 15rem;
+ padding-right: 10rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  z-index: 0;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  -webkit-transition: -webkit-transform 1600ms;
+  transition: -webkit-transform 1600ms, transform 1600ms;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+/* each slide backgound color */  
+.slide1 {
+   
+  left: 0;
+}
+.slide2 {
+  left: 100%;
+}
+.slide3 {
+  left: 200%;
+}
+
+
+
+/* Next and Preive arrow */ 
+.control {
+  position: absolute;
+  top: 26rem;
+  width: 5.12rem;
+  height: 5.12rem;
+  margin-top: -1.56rem;
+  z-index: 55;
+}
+.control label {
+  z-index: 0;
+  display: none;
+  text-align: center;
+  line-height: 3.12rem;
+  font-size: 3.12rem;
+  color: #FFF;
+  cursor: pointer;
+  opacity: 1;
+}
+.control label:hover {
+  opacity: 0.5;
+}
+.next {
+  right: 1%;
+}
+.previous {
+  left: 1%;
+}
+
+/* Slider Pagger arrow event */
+.slide-radio1:checked ~ .next .numb2, 
+.slide-radio2:checked ~ .next .numb3,  
+.slide-radio2:checked ~ .previous .numb1, 
+.slide-radio3:checked ~ .previous .numb2 {
+  display: block;
+  z-index: 1
+}
+
+/* Slider slide effect */
+.slide-radio1:checked ~ .slider {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+.slide-radio2:checked ~ .slider {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+.slide-radio3:checked ~ .slider {
+  -webkit-transform: translateX(-200%);
+  transform: translateX(-200%);
+}
+
+
+input{
+ opacity: 0
+}
+
+.fa-arrow-circle-left{
+transform:rotate(180deg);
+width: 5.37rem;
+  height: 5.37rem;
+}
+
+.fa-arrow-circle-right{
+width: 5.37rem;
+  height: 5.37rem;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.css-slider-wrapper__{
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  left: 70rem;
+  right: 62rem;
+  top: 10rem;
+  bottom: 0;
+  
+   margin-top: 83rem;
+  width: 50.37rem;
+  height: 50.37rem;
+}
+
+.slider_ {
+  padding-left: 15rem;
+ padding-right: 10rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  z-index: 0;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  -webkit-transition: -webkit-transform 1600ms;
+  transition: -webkit-transform 1600ms, transform 1600ms;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* each slide backgound color */  
+.slide1_ {
+   
+  left: 0;
+}
+.slide2_ {
+  left: 100%;
+}
+.slide3_ {
+  left: 200%;
+}
+
+
+
+/* Next and Preive arrow */ 
+.control__ {
+  position: absolute;
+  top: 26rem;
+  width: 5.12rem;
+  height: 5.12rem;
+  margin-top: -1.56rem;
+  z-index: 55;
+}
+.control__ .numb1_, .control__ .numb2_, .control__ .numb3_ {
+  z-index: 0;
+  display: none;
+  text-align: center;
+  line-height: 3.12rem;
+  font-size: 3.12rem;
+  color: #FFF;
+  cursor: pointer;
+  opacity: 1;
+}
+
+
+.control__ label:hover {
+  opacity: 0.5;
+}
+.next__ {
+  right: 1%;
+}
+.previous__ {
+  left: 1%;
+}
+
+/* Slider Pagger arrow event */
+.slide-radio1_:checked ~ .next__ .numb2_, 
+.slide-radio2_:checked ~ .next__ .numb3_,  
+.slide-radio2_:checked ~ .previous__ .numb1_, 
+.slide-radio3_:checked ~ .previous__ .numb2_ {
+  display: block;
+  z-index: 1
+}
+
+/* Slider slide effect */
+.slide-radio1_:checked ~ .slider_ {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+}
+.slide-radio2_:checked ~ .slider_ {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+.slide-radio3_:checked ~ .slider_ {
+  -webkit-transform: translateX(-200%);
+  transform: translateX(-200%);
+}

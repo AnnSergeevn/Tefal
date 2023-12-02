@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Circe';
+  src: url("Circe/circe.ttf");
+}
+
+@font-face {
+  font-family: 'Circe-extrabold';
+  src: url("Circe/circe-extrabold.ttf");
+}
+
+@font-face {
+  font-family: 'Circe-bold';
+  src: url("Circe/circe-bold.ttf");
+}

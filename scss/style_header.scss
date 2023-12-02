@@ -1,0 +1,145 @@
+
+$font-stack: "Circe";
+$font-stack-extrabold: "Circe-extrabold";
+$font-stack-bold: "Circe-bold";
+
+@media (min-width: 48em) {
+
+html, body, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+	font: inherit;
+	vertical-align: baseline;
+}
+
+  html {
+    font-size: 0.81vw;
+  }
+
+
+.header_substrate {
+  height: 52.12rem;
+  background: url("header.png");
+  background-size: cover; 
+	padding-left:20.3rem; 
+  
+}
+
+.emblems{
+display: flex;
+flex-direction: row;
+padding-top:4.375rem;
+height:3.5rem;
+}
+
+.emblem_tefal{
+width:16.73rem;
+height:3.5rem;
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+}
+
+.emblem_tefal_b{
+height:3.4rem;
+width:3.8rem;
+}
+
+.e, .a {
+height:2.5rem;
+width:4rem;
+}
+
+.neva{
+padding-left:4.55em;;
+height:3.5rem;
+width:16.37rem;
+height:4rem;
+}
+
+
+.data{
+font-family: $font-stack;
+font-weight: 400;
+font-size: 2rem;
+padding-top:4.7rem;
+}
+
+.header-slogon{
+font-family: $font-stack-extrabold;
+font-weight: 800;
+font-size: 4.6rem;
+padding-top:0.2rem;
+text-transform:uppercase;
+width:42.5rem;
+line-height: 4.5rem;
+}
+
+.skidka{
+display: flex;
+flex-direction: row;
+width:42.18rem;
+align-items: flex-end;
+}
+
+.number{
+font-family: $font-stack;
+font-weight: 700;
+font-size: 12.61rem;
+height:12.5rem;
+padding-top:0.3rem;
+}
+
+.procent{
+font-family: $font-stack;
+font-weight: 700;
+font-size: 7.39rem;
+height:7rem;
+}
+
+.do{
+font-family: $font-stack-bold;
+font-weight: 700;
+font-size: 3.35rem;
+height:7.5rem;
+position:absolute;
+top: 33.5rem; 
+left: 21.2rem;
+}
+
+.card{
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+}
+.card_img{
+padding-top:1.8rem;
+width:8.18rem;
+height:5.12rem;
+}
+
+.card-text{
+padding-left:1.6rem;
+padding-top:2.5rem;
+width:9.56rem;
+height: 5.13rem;
+font-family: "Circe";
+font-weight: 400;
+font-size: 1.12rem;
+}
+
+}

@@ -1,0 +1,45 @@
+$font-stack: "Circe";
+
+
+footer{
+height:22.81rem;
+background:#000000;
+
+}
+
+.buttons{
+display: flex;
+flex-diraction:row;
+
+}
+.button {
+font-family: $font-stack;
+font-weight: 400;
+  border-radius: 10rem;
+  color: #fff;
+  font-size: 1rem;
+  overflow: hidden;
+   border: 0.06rem solid #fff;
+margin-left:19.3rem;
+margin-top:4.3rem;
+  padding: 1rem 7.6rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-decoration:none;
+  font-size: 1.37rem;
+  
+}
+
+.button_buklet{
+margin-left:1.8rem;
+}
+
+.footer_text{
+font-family: $font-stack;
+font-weight: 400;
+color: #fff;
+padding-left:19.3rem;
+padding-top:2.43rem;
+width:81.5rem;
+font-size: 1.37rem;
+}
