@@ -3,24 +3,44 @@
 
 @media only screen and (max-width: 20em) {
  
+html, body, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
 
-.content{
- width: 20rem;
-}
+  html {
+    font-size: 4.7vw;
+	
+  }
+
   
 .header_substrate {
-    
-  background: url("header_mob.png");
-  height: 27rem;
-  background-size: cover;
-  padding-left: 0rem;
-  display: flex;
-  flex-direction: column;
+    background: url("header_mob.png");
+height: 27rem;
+background-size: cover;
+padding-left: 0rem;
+display: flex;
+flex-direction: column;
 	 
-  width: 19rem;
-  margin-top:5rem;
-  padding-left:0.8rem;
-	  
+width: 19rem;
+margin-top:5rem;
+padding-left:0.8rem;
+	 
   }
 
   .emblems {
@@ -35,6 +55,7 @@
     height: 3.5rem;
 	
 	justify-content: end;
+	
   }
 
   .emblem_tefal {
@@ -382,10 +403,7 @@ padding-left: 0rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: column;
-      flex-wrap: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
+  flex-direction: column;
           justify-content: space-between;
   padding-left: 9.25rem;
   width: 10.5rem;
@@ -478,7 +496,7 @@ padding-left: 0rem;
           justify-content: space-between;
   padding-left: 0.7rem;
   width: 18.5rem;
-  margin-top: 25 rem;
+  
   top: 20rem;
 }
 
@@ -590,7 +608,7 @@ padding-left: 0rem;
   flex-direction: column;
  
   padding-left: 0.7rem;
-  width: 20rem;
+  width: 19rem;
   margin-top: 15 rem;
   top: 20rem;
 }
@@ -820,9 +838,9 @@ margin-left:-11.5rem
   display: -ms-flexbox;
   display: flex;
   flex-direction: row;
-  -webkit-box-align: stat;
-      -ms-flex-align: stat;
-          align-items: stat;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
 		   padding-left: 1rem;
 }
 
@@ -863,7 +881,7 @@ margin-left:-11.5rem
   flex-direction: row;
   -webkit-box-align: stat;
       -ms-flex-align: stat;
-          align-items: stat;
+          align-items: start;
 }
 
 .product_title {
