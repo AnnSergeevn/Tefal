@@ -40,7 +40,7 @@ flex-direction: column;
 width: 19rem;
 margin-top:5rem;
 padding-left:0.8rem;
-	 
+	
   }
 
   .emblems {
@@ -144,10 +144,11 @@ padding-left:0.8rem;
   .do {
     font-family: "Circe-bold";
     font-weight: 700;
-    font-size: 1.1rem;
+    font-size: 2.42rem;
+    height: 7.5rem;
     position: absolute;
-    top: 18rem;
-    left:1.5rem;
+    top: 33.5rem;
+    left: 21.2rem;
 
   }
 
